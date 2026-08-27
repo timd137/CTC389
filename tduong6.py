@@ -9,7 +9,7 @@ def print_student_list(students):
         print(index, student)
         index = index + 1
 
-print("List of student names:")
+print("Current list of student names:")
 print_student_list(students)
 
 print("----------Menu----------")
