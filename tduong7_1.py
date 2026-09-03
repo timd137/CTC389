@@ -1,7 +1,7 @@
 #Timothy Duong
 #CTC 389 Lab 7 Part 1
 
-number = 3
+number = 5
 
 guess = int(input("Guess my number: "))
 while guess >= number-2 and guess <= number+2 and guess != number:
