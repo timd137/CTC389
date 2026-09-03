@@ -2,8 +2,8 @@
 #CTC 389 Lab 7 Part 1
 
 number = 3
-guess = int(input("Guess my number: "))
 
+guess = int(input("Guess my number: "))
 while guess >= number-2 and guess <= number+2 and guess != number:
     guess = int(input("Close, try again: "))
 if guess == number:
