@@ -5,7 +5,6 @@ number = 3
 
 def guessing_game():
     guess = int(input("Guess my number: "))
-
     while guess >= number-2 and guess <= number+2 and guess != number:
         guess = int(input("Close, try again: "))
     if guess == number:
