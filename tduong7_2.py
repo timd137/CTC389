@@ -1,7 +1,7 @@
 #Timothy Duong
 #CTC 389 Lab 7 Part 2
 
-number = 3
+number = 5
 
 def guessing_game():
     guess = int(input("Guess my number: "))
