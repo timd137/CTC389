@@ -12,4 +12,3 @@ elif guess > number+2:
     print("Sorry, you lost. Your guess was higher than my number which is", number)
 elif guess < number-2:
     print("Sorry, you lost. Your guess was lower than my number which is", number)
-
